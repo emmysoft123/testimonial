@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --dark-blue: hsl(240, 38%, 20%);
+  --grayish-blue: hsl(240, 18%, 77%);
+  --text-blue: hsl(240, 8%, 57%);
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #000;
+  overflow-x: hidden;
+
+}
+.curve{
+  position: relative;
+  top: 1020px;
+}
+.attribution {
+
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  margin-top: 450px;
+
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+  }
+  .wrapper{
+    margin-top: 8em;
+
+  }
+.pattern{
+position: absolute;
+max-height: 18em;
+margin-top: -16.8em;
+margin-left: 4em;
+z-index: -1;
+width: 22em;
+}
+.tanya,.john{
+max-height: 17em;
+margin-left: 6em;
+width: 18em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.form{
+  position: relative;
+  background-color: white;
+  width: 6em;
+  margin-left: 12em;
+  border: 1px solid white;
+  border-radius: 15em;
+  min-height: 2.3em;
+  top:-1.6em;
+}
+.prev, .next{
+  justify-content: center;
+  margin-left: 1.6em;
+  margin-top: 0.5em;
+  z-index: 3;
+}
+.testimonial-text{
+  position: relative;
+  top: 40em;
+  color: hsl(240, 8%, 57%);
+  font-weight: 300;
+  margin-left: 7em;
+  font-weight: 300;
+}
+#sinclair, #john{
+  font-weight: bold;
+  color: hsl(240, 38%, 20%);
+  margin-left: 5em;
+}
+#UX, #developer{
+  margin-left: 5em;
+}
+.quotes{
+  width: 4em;
+  position: relative;
+  top: 41em;
+    margin-left: 13em;
+}
+
+@media only screen and (min-width: 768px) {
+  .attribution {
+
+    font-size: 18px;
+    text-align: center;
+    bottom: 30em;
+    margin-bottom:-10em;
+
+  }
+  .attribution a {
+     color: hsl(228, 45%, 44%);
+    }
+  .pattern{
+  position: relative;
+  min-height: 34em;
+  margin-top: -31.5em;
+  margin-left: 1em;
+  z-index: -1;
+  width: 34em;
+  }
+  .tanya,.john{
+  min-height: 28em;
+  margin-left: 6em;
+  width: 25em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .image{
+    margin-left: 45em;
+  }
+  .form{
+    position: relative;
+    background-color: white;
+    width: 6em;
+    margin-left: 55em;
+    border: 1px solid white;
+    border-radius: 15em;
+    min-height: 2.3em;
+    top:-3.5em;
+  }
+  .testimonial{
+    margin-left: 19em;
+  }
+  .testimonial-text{
+    position: relative;
+    top: 14em;
+    color: hsl(240, 8%, 57%);
+    margin-left: -3em;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  .quotes{
+    width: 7em;
+    position: relative;
+    top: 30em;
+      margin-left: 1em;
+  }
+  #sinclair, #john{
+    font-weight: bold;
+    color: hsl(240, 38%, 20%);
+    margin-left: 1em;
+    font-size: 20px;
+  }
+  #UX, #developer{
+    margin-left: 11em;
+    font-size: 16px;
+    margin-top: -2.5em;
+  }
+  .wrapper{
+    margin-top: 1em;
+  }
+  .curve{
+    position: relative;
+    top: 1020px;
+  }
+}
